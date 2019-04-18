@@ -1,31 +1,56 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <!-- <router-link to="/"></router-link>
+      <router-link to="/Sign"></router-link> -->
+      <!-- <span id="num">{{count}}</span> -->
     </div>
     <router-view/>
   </div>
 </template>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
+<script>
+import { fontsizeset } from "./fontsizeset.js";
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+export default {
+  name: "app",
+  data() {
+    return {
+      // count: "" // 倒计时
+    };
+  },
+  // created() {
+  //   this.threeGo();
+  // },
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  // methods: {
+  //   threeGo() {
+  //     const TIME_COUNT = 3;
+  //     if (!this.timer) {
+  //       this.count = TIME_COUNT;
+  //       this.show = false;
+  //       this.timer = setInterval(() => {
+  //         if (this.count > 0 && this.count <= TIME_COUNT) {
+  //           this.count--;
+  //         } else {
+  //           this.show = true;
+  //           clearInterval(this.timer);
+  //           this.timer = null;
+  //           // 跳转的页面写在此处
+  //           this.$router.push({
+  //             path: "/Sign"
+  //           });
+  //         }
+  //       }, 1000);
+  //     }
+  //   }
+  // }
+};
+</script>
+
+<style scoped>
+  /* #num {
+    display: none;
+  } */
 </style>
+
