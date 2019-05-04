@@ -24,6 +24,10 @@ class AppStringboxController extends Controller {
             urltwo: '/public/images/Opendoor1@3x.png',
             urlthree:'/public/images/Callthepolice1@3x.png',
             urlfore:'/public/images/Relation1@3x.png',
+            urlsix:'../public/images/fase2@2x.1.png',
+            imgurlone:'../public/images/lock@2x.2.png',
+            urlimg:'../public/images/Callthepolice1@2x.2.png',
+            urlimgone:'../public/images/Relation1@2x.1.png',
    })
   }
 }

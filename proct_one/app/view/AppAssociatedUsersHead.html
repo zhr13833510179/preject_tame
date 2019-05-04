@@ -11,6 +11,14 @@
   <link rel="stylesheet" href="/public/css/AppAssociatedUsersHead.css">
   <script src="/public/js/fontsizeset.js"></script>
   <script src="/public/js/jquery.js"></script>
+  <link rel="stylesheet" href="/public/css/router.css">
+  <style>
+    #app .router .text_fore {
+            color: #0090ff;
+        }
+  </style>
+  {% block css %}
+  {% endblock %}
 </head>
 
 <body>
@@ -40,8 +48,14 @@
   </div>
   {% block js %}
   <script src="/public/js/AppAssociatedUsersHead.js"></script>
+  <img src="{{urlsix}}" alt="" class="icon_one">
+  <img src="{{imgurlone}}" alt="" class="icon_two">
+  <img src="{{urlimg}}" alt="" class="icon_three">
+  <img src="{{urlimgone}}" alt="" class="icon_fore">
+  <link rel="stylesheet" href="/controller/appassociatedusershead.js">
   {% endblock %}
 </body>
 
 </html>
+
 {% endblock %}

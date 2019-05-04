@@ -87,6 +87,7 @@ li {
     height: 4.35rem;
     width: 7.5rem;
     overflow: hidden;
+    position: relative;
 }
 .footer-top {
     padding: 0.95rem 0.25rem 0;
@@ -163,4 +164,28 @@ li {
 }
 #footer .image {
     margin-top: 0.15em;
+}
+#footer .icon_one {
+    position: absolute;
+    bottom: 0.25rem;
+    left: 0.65rem;
+    width: 0.55rem;
+}
+#footer .icon_two {
+    position: absolute;
+    bottom: 0.25rem;
+    left: 2.57rem;
+    width: 0.55rem;
+}
+#footer .icon_three {
+    position: absolute;
+    bottom: 0.25rem;
+    left: 4.37rem;
+    width: 0.55rem;
+}
+#footer .icon_fore {
+    position: absolute;
+    bottom: 0.25rem;
+    left: 6.27rem;
+    width: 0.55rem;
 }

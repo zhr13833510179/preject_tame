@@ -98,3 +98,29 @@
     margin-left: 1.34rem;
     margin-top: 0.18rem;
   }
+  .icon_one {
+    position: absolute;
+    top:12.4rem;
+    left: 0.65rem;
+    width: 0.55rem;
+    /* z-index: 100; */
+}
+.icon_two {
+  position: absolute;
+  bottom: 0.4rem;
+  left: 2.57rem;
+  width: 0.55rem;
+  /* z-index: 100; */
+}
+.icon_three {
+  position: absolute;
+  bottom: 0.4rem;
+  left: 4.37rem;
+  width: 0.55rem;
+}
+.icon_fore {
+  position: absolute;
+  bottom: 0.4rem;
+  left: 6.27rem;
+  width: 0.55rem;
+}

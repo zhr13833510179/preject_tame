@@ -10,7 +10,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="/public/css/AppHead1.css">
     <script src="/public/js/fontsizeset.js"></script>
-
+    <link rel="stylesheet" href="/public/css/router.css">
+    <style>
+        #app .router .text_two {
+            color: #0090ff;
+        }
+    </style>
+    {% block css %}
+    {% endblock %}
 </head>
 
 <body>
@@ -41,4 +48,11 @@
 </body>
 
 </html>
+<img src="{{urlsix}}" alt="" class="icon_one">
+        <img src="{{imgurlone}}" alt="" class="icon_two">
+        <img src="{{urlimg}}" alt="" class="icon_three">
+        <img src="{{urlimgone}}" alt="" class="icon_fore">
+        <link rel="stylesheet" href="/controller/AppHead1">
+        {% block js %}
+        {% endblock %}
 {% endblock %}

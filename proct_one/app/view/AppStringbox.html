@@ -9,11 +9,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="/public/css/AppStringbox.css">
     <script src="/public/js/fontsizeset.js"></script>
+    <link rel="stylesheet" href="/public/css/router.css">
+    <style>
+        #app .router .box {
+            color: #0090ff;
+        }
+    </style>
+    {% block css %}
+    {% endblock %}
 </head>
 <body>
         <div id="header">
                 <img src="{{imgurl}}" alt="" class="inner-status">
-                <img src="{{imgurltwo}}" alt="" class="icon-String" @click="goTo">
+               <a href=""></a> <img src="{{imgurltwo}}" alt="" class="icon-String" @click="goTo">
                 <h6>{{ msg }}</h6>
                 <a href="/appdateils1" class="box_String">{{ text }}</a>
             </div>
@@ -42,6 +50,13 @@
                     </li>
                 </ul>
                 </div>
+                <img src="{{urlsix}}" alt="" class="icon_one">
+                <img src="{{imgurlone}}" alt="" class="icon_two">
+                <img src="{{urlimg}}" alt="" class="icon_three">
+                <img src="{{urlimgone}}" alt="" class="icon_fore">
+                <script src="/controller/AppStringbox.js"></script>
+                {% block js %}
+                {% endblock %}
             </div>
 </body>
 </html>

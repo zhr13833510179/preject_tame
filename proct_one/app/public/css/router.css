@@ -9,7 +9,7 @@
 }
 #app .router {
     position: fixed;
-    bottom: 0;
+    bottom: 0.1rem;
     left:0;
 }
 #app .router li {
@@ -46,5 +46,4 @@
 #app .router .box {
     /* margin-left: 0.3rem; */
     left: 0.5rem;
-
 }
