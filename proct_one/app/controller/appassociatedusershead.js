@@ -23,7 +23,7 @@ class AppassociatedusersheadController extends Controller {
                 }
             ],
             urlsix:'../public/images/fase1@2x.png',
-            imgurlone:'../public/images/lock@2x.1.png',
+            imgurlone:'../public/images/Opendoor1@2x.1.png',
             urlimg:'../public/images/Callthepolice1@2x.3.png',
             urlimgone:'../public/images/Relation2@2x.png',
         })

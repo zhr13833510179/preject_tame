@@ -15,7 +15,7 @@ class AppbaoController extends Controller {
         subtitler2:'保险箱电量低于20%',
         subtitler4:'保险箱电量低于30%',
         urlsix:'../public/images/fase1@2x.png',
-            imgurlone:'../public/images/lock@2x.1.png',
+            imgurlone:'../public/images/Opendoor1@2x.1.png',
             urlimg:'../public/images/Callthepolice2@2x.2.png',
             urlimgone:'../public/images/Relation1@2x.1.png',
    })
