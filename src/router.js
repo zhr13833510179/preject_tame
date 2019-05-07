@@ -4,6 +4,7 @@ import ad from './views/ad'
 import Sign from  './views/Sign.vue'
 import addSafefive from './views/addSafefive.vue'
 import appRegister from './views/appRegister.vue'
+import appRegister1 from './views/appRegister1.vue'
 import addSafe from './views/addSafe.vue'
 import AppDateils from './views/AppDateils.vue'
 import AppStringbox from './views/AppStringbox.vue'
@@ -13,6 +14,7 @@ import Appstringboxcomplete from './views/Appstringboxcomplete'
 import App1 from './views/App1.vue'
 import Appzt from './views/Appzt'
 import RelevantWhole from './views/RelevantWhole'
+import Status_bar from './views/Status_bar'
 
 Vue.use(Router)
 
@@ -39,6 +41,11 @@ export default new Router({
       path:'/appRegister',
       name:'appRegister',
       component: appRegister
+    },
+    {
+      path:'/appRegister1',
+      name:'appRegister1',
+      component: appRegister1
     },
     {
       path:'/addSafe',
@@ -91,6 +98,11 @@ export default new Router({
       path:'/AppDetails',
       name:'AppDetails',
       component:AppDetails
+    },
+    {
+      path:'/Status_bar',
+      name:'Status_bar',
+      component:Status_bar
     },
   ]
 })

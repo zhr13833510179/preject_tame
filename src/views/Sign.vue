@@ -22,7 +22,9 @@
     <router-link :to="{name:'appRegister'}"> 
       <span class="register">{{register}}</span>
     </router-link>
-    <span class="forget">{{forget}}</span>
+    <router-link :to="'/appRegister1'">
+      <span class="forget">{{forget}}</span>
+    </router-link>
   </div>
 </template>
 
@@ -143,6 +145,6 @@ export default {
   font-size: 0.3rem;
   color: #808080;
   margin-top: 0.52rem;
-  margin-right: -0.65rem;
+  margin-right: -0.95rem;
 }
 </style>

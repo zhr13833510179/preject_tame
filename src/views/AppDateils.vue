@@ -4,7 +4,7 @@
       <div class="header-inner">
         <img :src="imgurlone" alt class="status-img">
       </div>
-        <img :src="imgurltwo" alt class="icon-Dateils">
+      <router-link :to="{name:'Status_bar'}"><img :src="imgurltwo" alt class="icon-Dateils"></router-link>
       <h6>{{strongbox}}</h6>
       <img :src="imgurlthree" alt class="icon-add">
     </div>
@@ -74,6 +74,9 @@ export default {
 </script>
 
 <style scoped>
+*{
+  text-decoration: none;
+}
 li {
   list-style-type: none;
 }
@@ -93,7 +96,7 @@ li {
 }
 #header-Dateils .status-img {
   width: 7.29rem;
-  height: 0.35rem;
+  height: 0.25rem;
   float: left;
   margin-left: 0.1rem;
 }

@@ -99,6 +99,7 @@ export default {
   color: #999999;
   margin-top: 0.29rem;
   margin-left: 0.98rem;
+  width: 5.5rem;
 }
 .QR-code {
   float: left;
