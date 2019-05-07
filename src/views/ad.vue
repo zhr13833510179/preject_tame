@@ -68,6 +68,7 @@ export default {
   position: absolute;
   left: 6.04rem;
   top: 1.1rem;
+  width: 0.5rem;
 }
 .Explain {
   color: #bfc0c5;

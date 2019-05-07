@@ -58,7 +58,7 @@ export default {
   padding: 0;
 }
 .Header {
-  width: 7.5rem;
+  width: 7.65rem;
   height: 0.88rem;
   background-color: black;
   float: left;
@@ -149,7 +149,7 @@ export default {
   text-decoration: none;
   font-size: 0.29rem;
   color: #0091ff;
-  margin-left: 5.5rem;
+  margin-left: 5.7rem;
   margin-top: -1.7rem;
 }
 .body .z4 {
@@ -159,7 +159,7 @@ export default {
   background-color: #0091ff;
   border: 0px solid #0091ff;
   margin-top: 0.35rem;
-  margin-left: 0.3rem;
+  margin-left: 0.45rem;
   font-size: 0.29rem;
   color: white;
   border-radius: 0.05rem;
