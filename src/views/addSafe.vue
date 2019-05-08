@@ -1,5 +1,6 @@
 <template>
   <div class="header">
+    <img :src="jpg" class="jpg">
     <!-- <img :src="status" alt="" class="status"> -->
     <img :src="jiao33" alt class="jiao33" @click="return_goTo">
     <!-- <a href class="jiao33" @click="return_goTo">‹</a> -->
@@ -26,6 +27,7 @@ export default {
   data() {
     return {
       // status:require('../assets/状态栏.png'),
+      jpg: require("../assets/状态栏.jpg"),
       jiao33: require("../assets/Return.png"),
       coffer0: "添加保险箱",
       coffer: "保险箱信息",
@@ -48,8 +50,14 @@ export default {
   margin: 0;
   padding: 0;
 }
-.header {
+.jpg {
+  margin-top: 0.05rem;
+  float: left;
   width: 7.5rem;
+  margin-left: 0.1rem;
+}
+.header {
+  width: 7.6rem;
   height: 0.89rem;
   background-color: black;
   float: left;
@@ -78,7 +86,7 @@ export default {
 }
 .body {
   float: left;
-  width: 7.5rem;
+  width: 7.6rem;
   height: 12.83rem;
   background-color: black;
   margin-top: -0.22rem;

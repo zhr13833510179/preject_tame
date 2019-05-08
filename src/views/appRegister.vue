@@ -1,5 +1,6 @@
 <template>
   <div class="Header">
+    <img :src="jpg" class="jpg">
     <img :src="jiao" alt class="jiao" @click="Previous_page">
     <p class="zhu">{{registe}}</p>
     <div class="body">
@@ -33,6 +34,7 @@
 export default {
   data() {
     return {
+      jpg: require("../assets/状态栏.jpg"),
       registe: "注册",
       jiao: require("../assets/Return.png"),
       MB: "手机",
@@ -57,19 +59,24 @@ export default {
   margin: 0;
   padding: 0;
 }
+.jpg {
+  float: left;
+  width: 7.5rem;
+  margin-left:0.1rem;
+}
 .Header {
   width: 7.65rem;
-  height: 0.88rem;
+  height: 0.9rem;
   background-color: black;
   float: left;
   margin-left: -0.15rem;
-  margin-top: -0.15rem;
+  /* margin-top: 0.25rem; */
 }
 .Header .jiao {
   float: left;
   width: 0.15rem;
   height: 0.3rem;
-  margin-top: 0.35rem;
+  margin-top: 0.1rem;
   margin-left: 0.3rem;
 }
 .Header .zhu {
