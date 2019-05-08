@@ -57,7 +57,7 @@ export default {
   margin-left: 0.1rem;
 }
 .header {
-  width: 7.6rem;
+  width: 7.65rem;
   height: 0.89rem;
   background-color: black;
   float: left;
@@ -80,13 +80,13 @@ export default {
 }
 .header .t12 {
   margin-top: 0.2rem;
-  margin-left: 2.97rem;
+  margin-left: 3.05rem;
   font-size: 0.31rem;
   color: white;
 }
 .body {
   float: left;
-  width: 7.6rem;
+  width: 7.65rem;
   height: 12.83rem;
   background-color: black;
   margin-top: -0.22rem;
@@ -131,7 +131,7 @@ export default {
   height: 0.98rem;
   background-color: #0091ff;
   border: #0091ff;
-  margin-left: 0.42rem;
+  margin-left: 0.52rem;
   margin-top: 1.52rem;
   color: white;
   font-size: 0.3rem;

@@ -54,9 +54,14 @@ export default {
   margin: 0;
   padding: 0;
 }
+#ad {
+  height: 13.35rem;
+  overflow: hidden;
+}
 .status_bar {
   width: 7.5rem;
   position: absolute;
+  margin-top: 0.02rem;
 }
 .tuq {
   width: 7.5rem;
@@ -78,4 +83,11 @@ export default {
   top: 1.2rem;
   writing-mode: tb-rl;
 }
+/* #num {
+  position: absolute;
+  top:0rem;
+  z-index: 1000;
+  color:red;
+  font-size: 0.3rem;
+} */
 </style>
